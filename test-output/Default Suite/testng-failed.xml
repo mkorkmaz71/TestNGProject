@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="TestNGProject(failed)">
     <classes>
-      <class name="com.automation.testcases.ExamplePriorityAndDependencyTest">
+      <class name="com.automation.testcases.DataDrivenTest">
         <methods>
-          <include name="test4"/>
-          <include name="test2"/>
-          <include name="test5"/>
-          <include name="test3"/>
-          <include name="test1"/>
+          <include name="verifyLoginUnsuccessfulWithInvalidCredentials"/>
         </methods>
-      </class> <!-- com.automation.testcases.ExamplePriorityAndDependencyTest -->
+      </class> <!-- com.automation.testcases.DataDrivenTest -->
     </classes>
   </test> <!-- TestNGProject(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

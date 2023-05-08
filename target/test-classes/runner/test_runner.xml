@@ -9,12 +9,14 @@
     </groups>
 
     <test name="Login Test" >
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.automation.testcases.LoginTest" />
         </classes>
     </test>
 
     <test name="Other Test">
+        <parameter name="browser" value="firefox"/>
         <classes>
             <class name="com.automation.testcases.CartPageTest"/>
             <class name="com.automation.testcases.SearchFunctionalityTest"/>

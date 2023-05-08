@@ -1,13 +1,13 @@
 package com.automation.testcases;
 
-
 import org.testng.annotations.*;
 
 public class LoginTest extends BaseTest {
 
     @Test(groups = {"Smoke Test","Chirag Test"})
-    public void verifyUserCanLogin() {
-        System.out.println("verify login successful");
+    @Parameters("browser")
+    public void verifyUserCanLogin(String browser) {
+        System.out.println("Opening browser"+browser);
     }
 
     @Test(groups = "Chirag Test")
